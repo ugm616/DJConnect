@@ -118,3 +118,7 @@ leftPlaylist.name = 'left-playlist';
 rightPlaylist.name = 'right-playlist';
 leftPlaylist.isPlaying = false;
 rightPlaylist.isPlaying = false;
+
+// Initialize play/pause buttons to show the play symbol
+document.getElementById('left-playlist-play-pause').textContent = '►';
+document.getElementById('right-playlist-play-pause').textContent = '►';
