@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>DJConnect</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div id="app">
+    <div id="left-playlist" class="playlist">
+      <h2>Left Playlist</h2>
+      <button id="left-playlist-play">Play</button>
+      <button id="left-playlist-pause">Pause</button>
+      <button id="left-playlist-stop">Stop</button>
+      <button id="left-playlist-next">Next</button>
+      <button id="left-playlist-prev">Previous</button>
+      <input type="range" id="left-volume" min="0" max="100" value="50"> Volume
+    </div>
+    <div id="right-playlist" class="playlist">
+      <h2>Right Playlist</h2>
+      <button id="right-playlist-play">Play</button>
+      <button id="right-playlist-pause">Pause</button>
+      <button id="right-playlist-stop">Stop</button>
+      <button id="right-playlist-next">Next</button>
+      <button id="right-playlist-prev">Previous</button>
+      <input type="range" id="right-volume" min="0" max="100" value="50"> Volume
+    </div>
+    <div id="controls">
+      <button id="crossfade-button">Crossfade</button>
+      <input type="range" id="crossfade-duration" min="1" max="30" value="5"> Fade Duration (seconds)
+    </div>
+    <div id="master-volume">
+      <label for="master-volume-control">Master Volume:</label>
+      <input type="range" id="master-volume-control" min="0" max="100" value="50">
+    </div>
+    <div id="song-time">00:00 / 00:00</div>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
