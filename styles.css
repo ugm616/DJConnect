@@ -38,6 +38,10 @@ button {
   cursor: pointer;
 }
 
+button:active {
+  background-color: #0056b3; /* Change color when button is pressed */
+}
+
 button:hover {
   background-color: #0056b3;
 }
